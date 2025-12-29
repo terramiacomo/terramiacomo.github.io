@@ -186,14 +186,15 @@
 
   /* background,surface and border colors
    */
-    --color-bg                    : #f5e8cf;
+    --color-bg                    : linear-gradient(145deg,var(--color-neutral) 0%, var(--color-neutral-100) 51%, var(--color-neutral-200) 100%);
+    --color-bg-light              : linear-gradient(145deg,var(--color-neutral) 0%, var(--color-neutral-100) 100%);
     --color-bg-inverse            : var(--color-neutral-600);
 
-    --color-bg-primary            : var(--color-1-600);
+    --color-bg-primary            : var(--color-1);
     --color-bg-primary-light      : var(--color-1-500);
     --color-bg-primary-dark       : var(--color-1-700);
 
-    --color-bg-secondary          : var(--color-2-500);
+    --color-bg-secondary          : var(--color-2);
     --color-bg-secondary-light    : var(--color-2-400);
     --color-bg-secondary-dark     : var(--color-2-600);
 
@@ -201,9 +202,9 @@
     --color-bg-accent-light       : var(--color-bg-primary-light);
     --color-bg-accent-dark        : var(--color-bg-primary-dark);
 
-    --color-bg-neutral            : var(--color-neutral-50);
+    --color-bg-neutral            : var(--color-neutral-100);
     --color-bg-neutral-light      : var(--color-neutral-50);
-    --color-bg-neutral-dark       : var(--color-neutral-100);
+    --color-bg-neutral-dark       : var(--color-neutral-200);
 
     --color-border                : var(--color-neutral-200);
 
@@ -223,9 +224,9 @@
 
   /* buttons
    */
-    --color-btn                   : var(--color-bg-neutral);
+    --color-btn                   : var(--color-neutral-150);
     --color-btn-text              : var(--color-1);
-    --color-btn-hover             : var(--color-bg-neutral-light);
+    --color-btn-hover             : var(--color-neutral-200);
     --color-btn-hover-text        : var(--color-1);
 
     --color-btn-primary           : var(--color-bg-accent);
@@ -1260,6 +1261,8 @@ table {
 html {
     font-size : var(--base-size);
     box-sizing: border-box;
+    background: var(--color-bg);
+    background-attachment: fixed;
 }
 
 *,
@@ -1269,7 +1272,6 @@ html {
 }
 
 body {
-    background-color          : var(--color-bg);
     -webkit-overflow-scrolling: touch;
     -webkit-text-size-adjust  : 100%;
     -webkit-font-smoothing    : antialiased;
@@ -2434,7 +2436,7 @@ input[type=reset].btn--primary,
 input[type=button].btn--primary {
     background  : var(--color-btn-primary);
     border-color: var(--color-btn-primary);
-    color       : var(--color-btn-primary-text);
+    color       : var(--color-neutral);
 }
 
 .btn.btn--primary:focus,
@@ -3236,6 +3238,7 @@ td:last-child {
 
 .s-header.scrolling {
     transform: translateY(0);
+    background: var(--color-bg-light);
 }
 
 .s-header.sticky {
@@ -3378,7 +3381,7 @@ td:last-child {
 
 .header-menu-toggle span {
     display         : block;
-    background-color: var(--color-white);
+    background-color: var(--color-1);
     width           : var(--toggle-line-width);
     height          : var(--toggle-line-height);
     margin-top      : -1px;
@@ -3415,13 +3418,12 @@ td:last-child {
 /* is clicked 
  */
 .header-menu-toggle.is-clicked span {
-    background-color: rgba(255, 255, 255, 0);
     transition      : all 0.1s;
 }
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-    background-color: var(--color-white);
+    background-color: var(--color-1);
 }
 
 .header-menu-toggle.is-clicked span::before {
@@ -3473,7 +3475,7 @@ td:last-child {
         width           : 100%;
         transform       : scaleY(0);
         transform-origin: center top;
-        background-color: var(--color-bg);
+        background: var(--color-bg);
         box-shadow      : var(--shadow-medium);
         border-bottom   : 1px solid var(--color-bg-neutral-dark);
         padding-top     : calc(var(--header-height) + var(--vspace-1_25));
@@ -3691,6 +3693,16 @@ td:last-child {
     font-size     : var(--text-sm);
     letter-spacing: 0.15em;
     color         : var(--color-1);
+}
+
+.intro-block-content__social svg {
+    height: var(--vspace-1_25);
+    width : var(--vspace-1_25);
+}
+
+.intro-block-content__social svg path,
+.intro-block-content__social svg circle {
+    fill: var(--color-1);
 }
 
 /* --------------------------------------------------------------------
@@ -3994,6 +4006,12 @@ td:last-child {
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .intro-scroll {
+        grid-column: 12;
+    }
+}
+
 
 /* ===================================================================
  * # ABOUT
@@ -4181,7 +4199,7 @@ td:last-child {
 
 .tab-nav__list a:hover,
 .tab-nav__list a:focus {
-    background-color: var(--color-neutral-900);
+    background-color: var(--color-neutral-200);
     color           : var(--color-text);
 }
 
