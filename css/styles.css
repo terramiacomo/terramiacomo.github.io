@@ -110,60 +110,61 @@
    * Tailwind CSS Color Generator
    * (https://uicolors.app/generate/)
    * 
-   * color-1 (#C73E1D)
-   * color-2 (#D1C1B3)
+   * color-1 (#2c556e)
+   * color-2 (#763112)
    */
-    --color-1-50                  : #fefaec;
-    --color-1-100                 : #fdeec8;
-    --color-1-200                 : #f9d574;
-    --color-1-300                 : #f8c551;
-    --color-1-400                 : #f6af29;
-    --color-1-500                 : #ef8c11;
-    --color-1-600                 : #d4690b;
-    --color-1-700                 : #b0480d;
-    --color-1-800                 : #8f3811;
-    --color-1-900                 : #752f12;
-    --color-1-950                 : #431705;
-    --color-1                     : var(--color-1-500);
+   --color-1-50                  : #fdf7f4;
+   --color-1-100                 : #fcefe9;
+   --color-1-200                 : #f5cebd;
+   --color-1-300                 : #eead90;
+   --color-1-400                 : #e78d64;
+   --color-1-500                 : #e16c38;
+   --color-1-600                 : #c7531e;
+   --color-1-700                 : #9b4018;
+   --color-1-800                 : #6f2e11;
+   --color-1-900                 : #421c0a;
+   --color-1-950                 : #210e05;
+   --color-1                     : #763112;
 
-    --color-2-50                  : #f9f7f3;
-    --color-2-100                 : #f2ede2;
-    --color-2-200                 : #e3d8c5;
-    --color-2-300                 : #d2be9f;
-    --color-2-400                 : #c2a480;
-    --color-2-500                 : #b1885e;
-    --color-2-600                 : #a47652;
-    --color-2-700                 : #885f46;
-    --color-2-800                 : #6f4f3d;
-    --color-2-900                 : #5a4134;
-    --color-2-950                 : #30211a;
-    --color-2                     : var(--color-2-500);
+   --color-2-50                  : #f6f9fb;
+   --color-2-100                 : #edf4f8;
+   --color-2-200                 : #c8dde9;
+   --color-2-300                 : #a4c6db;
+   --color-2-400                 : #80afcc;
+   --color-2-500                 : #5b98bd;
+   --color-2-600                 : #427fa4;
+   --color-2-700                 : #33637f;
+   --color-2-800                 : #24465b;
+   --color-2-900                 : #162a37;
+   --color-2-950                 : #0b151b;
+   --color-2                     : #2c556e;
 
   /* neutrals
    * generated using 
    * Tint & Shade Generator 
    * (https://maketintsandshades.com/)
    */
-    --color-neutral-50            : #efefef;
-    --color-neutral-100           : #dfe0e0;
-    --color-neutral-150           : #cfd0d0;
-    --color-neutral-200           : #bfc1c0;
-    --color-neutral-250           : #afb1b1;
-    --color-neutral-300           : #9fa1a1;
-    --color-neutral-350           : #8f9291;
-    --color-neutral-400           : #7f8281;
-    --color-neutral-450           : #6f7372;
-    --color-neutral-500           : #5f6362;
-    --color-neutral-550           : #565958;
-    --color-neutral-600           : #4c4f4e;
-    --color-neutral-650           : #434545;
-    --color-neutral-700           : #393b3b;
-    --color-neutral-750           : #303231;
-    --color-neutral-800           : #262827;
-    --color-neutral-850           : #1c1e1d;
-    --color-neutral-900           : #131414;
-    --color-neutral-950           : #090a0a;
-    --color-neutral               : var(--color-neutral-500);
+
+   --color-neutral-50: #e9dcc5;
+   --color-neutral-100: #ddd1ba;
+   --color-neutral-150: #d0c5b0;
+   --color-neutral-200: #c4baa6;
+   --color-neutral-250: #b8ae9b;
+   --color-neutral-300: #aca291;
+   --color-neutral-350: #9f9787;
+   --color-neutral-400: #938b7c;
+   --color-neutral-450: #878072;
+   --color-neutral-500: #7b7468;
+   --color-neutral-550: #6e685d;
+   --color-neutral-600: #625d53;
+   --color-neutral-650: #565148;
+   --color-neutral-700: #4a463e;
+   --color-neutral-750: #3d3a34;
+   --color-neutral-800: #312e29;
+   --color-neutral-850: #25231f;
+   --color-neutral-900: #191715;
+   --color-neutral-950: #0c0c0a;
+   --color-neutral: #f5e8cf;
 
     --color-white                 : var(--color-neutral-50);
     --color-black                 : var(--color-neutral-950);
@@ -185,7 +186,7 @@
 
   /* background,surface and border colors
    */
-    --color-bg                    : var(--color-neutral-950);
+    --color-bg                    : #f5e8cf;
     --color-bg-inverse            : var(--color-neutral-600);
 
     --color-bg-primary            : var(--color-1-600);
@@ -200,37 +201,37 @@
     --color-bg-accent-light       : var(--color-bg-primary-light);
     --color-bg-accent-dark        : var(--color-bg-primary-dark);
 
-    --color-bg-neutral            : var(--color-neutral-850);
-    --color-bg-neutral-light      : var(--color-neutral-800);
-    --color-bg-neutral-dark       : var(--color-neutral-900);
+    --color-bg-neutral            : var(--color-neutral-50);
+    --color-bg-neutral-light      : var(--color-neutral-50);
+    --color-bg-neutral-dark       : var(--color-neutral-100);
 
-    --color-border                : var(--color-neutral-850);
+    --color-border                : var(--color-neutral-200);
 
   /* text
    */
-    --color-text                  : var(--color-neutral-200);
-    --color-text-bold             : var(--color-neutral-50);
-    --color-text-light            : var(--color-neutral-500);
-    --color-headings              : var(--color-neutral-100);
+    --color-text                  : var(--color-2);
+    --color-text-bold             : var(--color-2-800);
+    --color-text-light            : var(--color-2-600);
+    --color-headings              : var(--color-1);
     --color-placeholder           : var(--color-neutral-500);
 
   /* link
    */
-    --color-link                  : var(--color-1-500);
+    --color-link                  : var(--color-1);
     --color-link-hover            : var(--color-bg-secondary);
     --color-link-active           : var(--color-bg-secondary);
 
   /* buttons
    */
     --color-btn                   : var(--color-bg-neutral);
-    --color-btn-text              : var(--color-white);
+    --color-btn-text              : var(--color-1);
     --color-btn-hover             : var(--color-bg-neutral-light);
-    --color-btn-hover-text        : var(--color-white);
+    --color-btn-hover-text        : var(--color-1);
 
     --color-btn-primary           : var(--color-bg-accent);
-    --color-btn-primary-text      : var(--color-white);
+    --color-btn-primary-text      : var(--color-1);
     --color-btn-primary-hover     : var(--color-bg-accent-dark);
-    --color-btn-primary-hover-text: var(--color-white);
+    --color-btn-primary-hover-text: var(--color-1);
 
     --color-btn-ghost             : var(--color-bg-secondary);
     --color-btn-ghost-text        : var(--color-bg-secondary);
@@ -3326,8 +3327,8 @@ td:last-child {
     color: var(--color-text);
 }
 
-.header-nav__links .current a {
-    color: var(--color-white);
+.header-nav__links .current a, cite {
+    color: var(--color-1);
 }
 
 /* header contact num
@@ -3689,7 +3690,7 @@ td:last-child {
 .intro-block-content__social a {
     font-size     : var(--text-sm);
     letter-spacing: 0.15em;
-    color         : var(--color-text-light);
+    color         : var(--color-1);
 }
 
 /* --------------------------------------------------------------------
@@ -3750,7 +3751,7 @@ td:last-child {
 }
 
 .intro-scroll svg path {
-    fill: var(--color-bg-accent-light);
+    fill: var(--color-2);
 }
 
 @keyframes rotation {
@@ -4631,7 +4632,7 @@ td:last-child {
 }
 
 .s-footer h6 {
-    color     : var(--color-bg-accent);
+    color     : var(--color-1);
     margin-top: 0;
 }
 
