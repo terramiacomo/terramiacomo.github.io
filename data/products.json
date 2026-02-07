@@ -1,84 +1,241 @@
 [
   {
+    "id": "tab-sardegna",
+    "name": "Sardegna",
+    "items": [
+      {
+        "name": "Liquore al Mirto",
+        "description": "200 / 500 / 700 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore al Mirto Bianco in bacche",
+        "description": "200 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore al Limone",
+        "description": "500 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore al Finocchio",
+        "description": "500 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore all'Elicriso",
+        "description": "200 / 500 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore al Corbezzolo",
+        "description": "200 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Liquore allo Zafferano",
+        "description": "500 ml",
+        "price": "ND"
+      }
+    ]
+  },
+  {
     "id": "tab-sicilia",
     "name": "Sicilia",
     "items": [
       {
-        "name": "Paste Di Mandorla",
-        "description": "Rich and full-bodied, our signature espresso blend with notes of dark chocolate and toasted nuts.",
-        "price": 3.5
+        "name": "Mandorle Naturali",
+        "description": "250 / 500 g",
+        "price": "ND"
       },
       {
-        "name": "Limoncello",
-        "description": "Silky mocha infused with a hint of vanilla, crowned with velvety whipped cream.",
-        "price": 4.25
+        "name": "Mandorle Pelate",
+        "description": "250 g",
+        "price": "ND"
       },
       {
-        "name": "Frutta Martorana",
-        "description": "A harmonious blend of espresso, steamed milk, and caramel drizzle.",
-        "price": 4.0
+        "name": "Mandorle Pizzute di Avola",
+        "description": "200 g",
+        "price": "ND"
       },
       {
-        "name": "Liquore ai Fichi d'India",
-        "description": "Creamy latte with the nutty goodness of hazelnut syrup.",
-        "price": 4.5
+        "name": "Mandorle Tostate",
+        "description": "Natuali; al Rosmarino; all'Origano - 200 g",
+        "price": "ND"
+      },
+      {
+        "name": "Mandorle Pralinate",
+        "description": "200 g",
+        "price": "ND"
+      },
+      {
+        "name": "Olive Siciliane",
+        "description": "Dolci; Schiacciate all'Olio, Carrettiera o Bomba; Capricciose; Denocciolate; Nere Essiccate o Caserecce; Infornate al Sale; alla Fantasia",
+        "price": "ND"
+      },
+      {
+        "name": "Capperi sotto Sale",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Patè Pistacchio e Aglio",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Pesto al Pistacchio",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Crema Pistacchio / Pistacchio e Cioccolato",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Croccante Pistacchio",
+        "description": "X g",
+        "price": "ND"
       }
     ]
   },
   {
-    "id": "tab-puglia",
-    "name": "Puglia",
+    "id": "tab-calabria",
+    "name": "Calabria",
     "items": [
       {
-        "name": "Vermicelli Con Le Anguille",
-        "description": "Flaky and buttery croissants baked to perfection.",
-        "price": 2.5
+        "name": "Succo Biologico",
+        "description": "750 ml - Bergamotto, Clementine, Melagrana",
+        "price": "ND"
       },
       {
-        "name": "Frutti Di Mare",
-        "description": "Delicate pastries filled with almond paste and sliced almonds.",
-        "price": 3.0
+        "name": "Succo di Melagrana",
+        "description": "200 ml - Puro o con aggiunta di limone",
+        "price": "ND"
       },
       {
-        "name": "Ostriche",
-        "description": "Moist muffins bursting with blueberries and a crumbly streusel top.",
-        "price": 2.75
+        "name": "Confettura di Melagrana",
+        "description": "212 ml",
+        "price": "ND"
       },
       {
-        "name": "Cozz Pelos",
-        "description": "Tender scones with a surprise chocolate center.",
-        "price": 3.25
+        "name": "Melassa di Melagrana",
+        "description": "100 ml",
+        "price": "ND"
       },
       {
-        "name": "Canestrelli",
-        "description": "LI CANESTREEEEEEEEEELLI.",
-        "price": 3.25
+        "name": "Liquore alla Melagrana",
+        "description": "500 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Marmellata al Bergamotto",
+        "description": "40 / 270 g",
+        "price": "ND"
+      },
+      {
+        "name": "Biscotti al Bergamotto",
+        "description": "300 g",
+        "price": "ND"
+      },
+      {
+        "name": "Condimento Extra Vergine d'Oliva al Bergamotto",
+        "description": "1 bottiglia",
+        "price": "ND"
+      },
+      {
+        "name": "Maccheroncini rigati al Bergamotto",
+        "description": "500 g",
+        "price": "ND"
+      },
+      {
+        "name": "Crema alle mandorle",
+        "description": "500 ml",
+        "price": "ND"
+      },
+      {
+        "name": "Amaro Cardus",
+        "description": "1 litro",
+        "price": "ND"
       }
     ]
   },
   {
-    "id": "tab-campania",
-    "name": "Campania",
+    "id": "tab-umbria",
+    "name": "Umbria",
     "items": [
       {
-        "name": "Pizza Fritta",
-        "description": "Luxurious dark chocolate truffles dusted with cocoa powder.",
-        "price": 2.75
+        "name": "Cookies con farina di marroni e nocciole",
+        "description": "X g",
+        "price": "ND"
       },
       {
-        "name": "Le Riccie",
-        "description": "Praline-filled bonbons topped with a caramelized nut.",
-        "price": 3.0
+        "name": "Cookies marroni e cioccolato",
+        "description": "X g",
+        "price": "ND"
       },
       {
-        "name": "Pasta Patane e Provola",
-        "description": "Crunchy toffee coated in pistachios and sea salt.",
-        "price": 4.0
+        "name": "Ciambelline al vino e farina di marroni",
+        "description": "X g",
+        "price": "ND"
       },
       {
-        "name": "Raspberry White Chocolate Bark",
-        "description": "Creamy white chocolate with swirls of raspberry and a sprinkle of almonds.",
-        "price": 3.5
+        "name": "Croccantelle di marroni",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Rose di marroni e chicchi di farro al cacao",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Tozzetti spoletini con farina di marroni e mandorle",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Croccantelle alle nocciole",
+        "description": "X g",
+        "price": "ND"
+      },
+      {
+        "name": "Nuvolette alle mandorle",
+        "description": "X g",
+        "price": "ND"
+      }
+    ]
+  },
+  {
+    "id": "tab-trentino",
+    "name": "Trentino",
+    "items": [
+      {
+        "name": "Stravecchio",
+        "description": "300 g",
+        "price": "ND"
+      },
+      {
+        "name": "Oro dell'Alpe",
+        "description": "300 g",
+        "price": "ND"
+      },
+      {
+        "name": "Imperial",
+        "description": "300 g",
+        "price": "ND"
+      },
+      {
+        "name": "Burro Alto Adigiano",
+        "description": "250 g",
+        "price": "ND"
+      },
+      {
+        "name": "Luganega Trentina",
+        "description": "Variabile",
+        "price": "ND"
       }
     ]
   },
@@ -87,24 +244,19 @@
     "name": "Veneto",
     "items": [
       {
-        "name": "Liquore al Caramello",
-        "description": "Luxurious dark chocolate truffles dusted with cocoa powder.",
-        "price": 20.0
+        "name": "Cremino Bigusto Nocciola e Pistacchio",
+        "description": "100 g",
+        "price": "ND"
       },
       {
-        "name": "Liquore alla Camomilla",
-        "description": "Praline-filled bonbons topped with a caramelized nut.",
-        "price": 20.0
+        "name": "Cremino Classico Nocciola",
+        "description": "100 g",
+        "price": "ND"
       },
       {
-        "name": "Liquore al Mirtillo",
-        "description": "Crunchy toffee coated in pistachios and sea salt.",
-        "price": 20.0
-      },
-      {
-        "name": "Liquore al Pinolo",
-        "description": "Creamy white chocolate with swirls of raspberry and a sprinkle of almonds.",
-        "price": 20.0
+        "name": "Tartufi in Festa",
+        "description": "150 g",
+        "price": "ND"
       }
     ]
   }
