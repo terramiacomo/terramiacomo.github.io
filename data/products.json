@@ -1,0 +1,111 @@
+[
+  {
+    "id": "tab-sicilia",
+    "name": "Sicilia",
+    "items": [
+      {
+        "name": "Paste Di Mandorla",
+        "description": "Rich and full-bodied, our signature espresso blend with notes of dark chocolate and toasted nuts.",
+        "price": 3.5
+      },
+      {
+        "name": "Limoncello",
+        "description": "Silky mocha infused with a hint of vanilla, crowned with velvety whipped cream.",
+        "price": 4.25
+      },
+      {
+        "name": "Frutta Martorana",
+        "description": "A harmonious blend of espresso, steamed milk, and caramel drizzle.",
+        "price": 4.0
+      },
+      {
+        "name": "Liquore ai Fichi d'India",
+        "description": "Creamy latte with the nutty goodness of hazelnut syrup.",
+        "price": 4.5
+      }
+    ]
+  },
+  {
+    "id": "tab-puglia",
+    "name": "Puglia",
+    "items": [
+      {
+        "name": "Vermicelli Con Le Anguille",
+        "description": "Flaky and buttery croissants baked to perfection.",
+        "price": 2.5
+      },
+      {
+        "name": "Frutti Di Mare",
+        "description": "Delicate pastries filled with almond paste and sliced almonds.",
+        "price": 3.0
+      },
+      {
+        "name": "Ostriche",
+        "description": "Moist muffins bursting with blueberries and a crumbly streusel top.",
+        "price": 2.75
+      },
+      {
+        "name": "Cozz Pelos",
+        "description": "Tender scones with a surprise chocolate center.",
+        "price": 3.25
+      },
+      {
+        "name": "Canestrelli",
+        "description": "LI CANESTREEEEEEEEEELLI.",
+        "price": 3.25
+      }
+    ]
+  },
+  {
+    "id": "tab-campania",
+    "name": "Campania",
+    "items": [
+      {
+        "name": "Pizza Fritta",
+        "description": "Luxurious dark chocolate truffles dusted with cocoa powder.",
+        "price": 2.75
+      },
+      {
+        "name": "Le Riccie",
+        "description": "Praline-filled bonbons topped with a caramelized nut.",
+        "price": 3.0
+      },
+      {
+        "name": "Pasta Patane e Provola",
+        "description": "Crunchy toffee coated in pistachios and sea salt.",
+        "price": 4.0
+      },
+      {
+        "name": "Raspberry White Chocolate Bark",
+        "description": "Creamy white chocolate with swirls of raspberry and a sprinkle of almonds.",
+        "price": 3.5
+      }
+    ]
+  },
+  {
+    "id": "tab-veneto",
+    "name": "Veneto",
+    "items": [
+      {
+        "name": "Liquore al Caramello",
+        "description": "Luxurious dark chocolate truffles dusted with cocoa powder.",
+        "price": 20.0
+      },
+      {
+        "name": "Liquore alla Camomilla",
+        "description": "Praline-filled bonbons topped with a caramelized nut.",
+        "price": 20.0
+      },
+      {
+        "name": "Liquore al Mirtillo",
+        "description": "Crunchy toffee coated in pistachios and sea salt.",
+        "price": 20.0
+      },
+      {
+        "name": "Liquore al Pinolo",
+        "description": "Creamy white chocolate with swirls of raspberry and a sprinkle of almonds.",
+        "price": 20.0
+      }
+    ]
+  }
+]

@@ -388,6 +388,90 @@
     };
 
 
+   /* load menu items from data/products.json
+    * ---------------------------------------------------- */
+    const ssLoadMenu = function() {
+
+        const navList = document.querySelector('.tab-nav__list');
+        const contentWrap = document.querySelector('.tab-content.menu-block');
+        const arrowSvg = '<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z" fill-rule="nonzero"/></svg>';
+
+        if (!(navList && contentWrap)) return Promise.resolve();
+
+        return fetch('data/products.json')
+            .then(function(resp){
+                if (!resp.ok) throw new Error('Network response not ok');
+                return resp.json();
+            })
+            .catch(function(err){
+                console.warn('Could not fetch product data:', err);
+                return [];
+            })
+            .then(function(data){
+                if (!Array.isArray(data) || data.length === 0) {
+                    console.warn('No product data found');
+                    return;
+                }
+
+                navList.innerHTML = '';
+                contentWrap.innerHTML = '';
+
+                data.forEach(function(region){
+                    // nav item
+                    var li = document.createElement('li');
+                    var a = document.createElement('a');
+                    a.href = '#' + region.id;
+                    var span = document.createElement('span');
+                    span.textContent = region.name;
+                    a.appendChild(span);
+                    a.insertAdjacentHTML('beforeend', arrowSvg);
+                    li.appendChild(a);
+                    navList.appendChild(li);
+
+                    // panel
+                    var panel = document.createElement('div');
+                    panel.id = region.id;
+                    panel.className = 'menu-block__group tab-content__item';
+
+                    var h6 = document.createElement('h6');
+                    h6.className = 'menu-block__cat-name';
+                    h6.textContent = region.name;
+                    panel.appendChild(h6);
+
+                    var ul = document.createElement('ul');
+                    ul.className = 'menu-list';
+
+                    (region.items || []).forEach(function(item){
+                        var liItem = document.createElement('li');
+                        liItem.className = 'menu-list__item';
+
+                        var desc = document.createElement('div');
+                        desc.className = 'menu-list__item-desc';
+                        var h4 = document.createElement('h4');
+                        h4.textContent = item.name;
+                        var p = document.createElement('p');
+                        p.textContent = item.description;
+                        desc.appendChild(h4);
+                        desc.appendChild(p);
+
+                        var priceDiv = document.createElement('div');
+                        priceDiv.className = 'menu-list__item-price';
+                        var price = (typeof item.price === 'number') ? item.price.toFixed(2) : item.price;
+                        priceDiv.innerHTML = '<span>€</span>' + price;
+
+                        liItem.appendChild(desc);
+                        liItem.appendChild(priceDiv);
+                        ul.appendChild(liItem);
+                    });
+
+                    panel.appendChild(ul);
+                    contentWrap.appendChild(panel);
+                });
+            });
+
+    };
+
+
    /* mailchimp form
     * ---------------------------------------------------- */ 
     const ssMailChimpForm = function() {
@@ -683,7 +767,7 @@
 
    /* Initialize
     * ------------------------------------------------------ */
-    (function ssInit() {
+    (async function ssInit() {
 
         ssPreloader();
         ssMoveHeader();
@@ -691,6 +775,7 @@
         ssScrollSpy();
         ssGLightbox();
         ssSwiper();
+        await ssLoadMenu();
         sstabs();
         ssMailChimpForm();
         ssAlertBoxes();
