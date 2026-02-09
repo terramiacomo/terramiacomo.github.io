@@ -3650,6 +3650,7 @@ td:last-child {
     margin        : 0;
     vertical-align: bottom;
     aspect-ratio  : 1200/1650;
+    border-radius: 80px 15px 40px 20px;
 }
 
 .intro-block-content {
@@ -3671,6 +3672,7 @@ td:last-child {
     margin        : 0;
     vertical-align: bottom;
     aspect-ratio  : 1050/600;
+    border-radius: 15px 50px 30px 5px;
 }
 
 .intro-block-content__text {
