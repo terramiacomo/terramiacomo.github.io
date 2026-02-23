@@ -453,14 +453,14 @@
                         p.textContent = item.description;
                         desc.appendChild(h4);
                         desc.appendChild(p);
-
+						/*
                         var priceDiv = document.createElement('div');
                         priceDiv.className = 'menu-list__item-price';
                         var price = (typeof item.price === 'number') ? item.price.toFixed(2) : item.price;
                         priceDiv.innerHTML = '<span>€</span>' + price;
-
+						*/
                         liItem.appendChild(desc);
-                        liItem.appendChild(priceDiv);
+                        //liItem.appendChild(priceDiv);
                         ul.appendChild(liItem);
                     });
 

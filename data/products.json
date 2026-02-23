@@ -5,37 +5,44 @@
     "items": [
       {
         "name": "Liquore al Mirto",
-        "description": "200 / 500 / 700 ml",
+        "description": "",
+        "quantity": "200 / 500 / 700 ml",
         "price": "ND"
       },
       {
         "name": "Liquore al Mirto Bianco in bacche",
-        "description": "200 ml",
+        "description": "",
+        "quantity": "200 ml",
         "price": "ND"
       },
       {
         "name": "Liquore al Limone",
-        "description": "500 ml",
+        "description": "",
+        "quantity": "500 ml",
         "price": "ND"
       },
       {
         "name": "Liquore al Finocchio",
-        "description": "500 ml",
+        "description": "",
+        "quantity": "500 ml",
         "price": "ND"
       },
       {
         "name": "Liquore all'Elicriso",
-        "description": "200 / 500 ml",
+        "description": "",
+        "quantity": "200 / 500 ml",
         "price": "ND"
       },
       {
         "name": "Liquore al Corbezzolo",
-        "description": "200 ml",
+        "description": "",
+        "quantity": "200 ml",
         "price": "ND"
       },
       {
         "name": "Liquore allo Zafferano",
-        "description": "500 ml",
+        "description": "",
+        "quantity": "500 ml",
         "price": "ND"
       }
     ]
@@ -46,57 +53,68 @@
     "items": [
       {
         "name": "Mandorle Naturali",
-        "description": "250 / 500 g",
+        "description": "",
+        "quantity": "250 / 500 g",
         "price": "ND"
       },
       {
         "name": "Mandorle Pelate",
-        "description": "250 g",
+        "description": "",
+        "quantity": "250 g",
         "price": "ND"
       },
       {
         "name": "Mandorle Pizzute di Avola",
-        "description": "200 g",
+        "description": "",
+        "quantity": "200 g",
         "price": "ND"
       },
       {
         "name": "Mandorle Tostate",
         "description": "Natuali; al Rosmarino; all'Origano - 200 g",
+        "quantity": "",
         "price": "ND"
       },
       {
         "name": "Mandorle Pralinate",
-        "description": "200 g",
+        "description": "",
+        "quantity": "200 g",
         "price": "ND"
       },
       {
         "name": "Olive Siciliane",
         "description": "Dolci; Schiacciate all'Olio, Carrettiera o Bomba; Capricciose; Denocciolate; Nere Essiccate o Caserecce; Infornate al Sale; alla Fantasia",
+        "quantity": "",
         "price": "ND"
       },
       {
         "name": "Capperi sotto Sale",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Patè Pistacchio e Aglio",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Pesto al Pistacchio",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Crema Pistacchio / Pistacchio e Cioccolato",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Croccante Pistacchio",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       }
     ]
@@ -107,57 +125,68 @@
     "items": [
       {
         "name": "Succo Biologico",
-        "description": "750 ml - Bergamotto, Clementine, Melagrana",
+        "description": "",
+        "quantity": "750 ml - Bergamotto, Clementine, Melagrana",
         "price": "ND"
       },
       {
         "name": "Succo di Melagrana",
-        "description": "200 ml - Puro o con aggiunta di limone",
+        "description": "Puro o con aggiunta di limone",
+        "quantity": "200 ml",
         "price": "ND"
       },
       {
         "name": "Confettura di Melagrana",
-        "description": "212 ml",
+        "description": "",
+        "quantity": "212 ml",
         "price": "ND"
       },
       {
         "name": "Melassa di Melagrana",
-        "description": "100 ml",
+        "description": "",
+        "quantity": "100 ml",
         "price": "ND"
       },
       {
         "name": "Liquore alla Melagrana",
-        "description": "500 ml",
+        "description": "",
+        "quantity": "500 ml",
         "price": "ND"
       },
       {
         "name": "Marmellata al Bergamotto",
-        "description": "40 / 270 g",
+        "description": "",
+        "quantity": "40 / 270 g",
         "price": "ND"
       },
       {
         "name": "Biscotti al Bergamotto",
-        "description": "300 g",
+        "description": "",
+        "quantity": "300 g",
         "price": "ND"
       },
       {
         "name": "Condimento Extra Vergine d'Oliva al Bergamotto",
-        "description": "1 bottiglia",
+        "description": "",
+        "quantity": "1 bottiglia",
         "price": "ND"
       },
       {
         "name": "Maccheroncini rigati al Bergamotto",
-        "description": "500 g",
+        "description": "",
+        "quantity": "500 g",
         "price": "ND"
       },
       {
         "name": "Crema alle mandorle",
-        "description": "500 ml",
+        "description": "",
+        "quantity": "500 ml",
         "price": "ND"
       },
       {
         "name": "Amaro Cardus",
-        "description": "1 litro",
+        "description": "",
+        "quantity": "1 litro",
         "price": "ND"
       }
     ]
@@ -168,42 +197,50 @@
     "items": [
       {
         "name": "Cookies con farina di marroni e nocciole",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Cookies marroni e cioccolato",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Ciambelline al vino e farina di marroni",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Croccantelle di marroni",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Rose di marroni e chicchi di farro al cacao",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Tozzetti spoletini con farina di marroni e mandorle",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Croccantelle alle nocciole",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       },
       {
         "name": "Nuvolette alle mandorle",
-        "description": "X g",
+        "description": "",
+        "quantity": "X g",
         "price": "ND"
       }
     ]
@@ -214,27 +251,32 @@
     "items": [
       {
         "name": "Stravecchio",
-        "description": "300 g",
+        "description": "",
+        "quantity": "300 g",
         "price": "ND"
       },
       {
         "name": "Oro dell'Alpe",
-        "description": "300 g",
+        "description": "",
+        "quantity": "300 g",
         "price": "ND"
       },
       {
         "name": "Imperial",
-        "description": "300 g",
+        "description": "",
+        "quantity": "300 g",
         "price": "ND"
       },
       {
         "name": "Burro Alto Adigiano",
-        "description": "250 g",
+        "description": "",
+        "quantity": "250 g",
         "price": "ND"
       },
       {
         "name": "Luganega Trentina",
-        "description": "Variabile",
+        "description": "",
+        "quantity": "Variabile",
         "price": "ND"
       }
     ]
@@ -245,17 +287,20 @@
     "items": [
       {
         "name": "Cremino Bigusto Nocciola e Pistacchio",
-        "description": "100 g",
+        "description": "",
+        "quantity": "100 g",
         "price": "ND"
       },
       {
         "name": "Cremino Classico Nocciola",
-        "description": "100 g",
+        "description": "",
+        "quantity": "100 g",
         "price": "ND"
       },
       {
         "name": "Tartufi in Festa",
-        "description": "150 g",
+        "description": "",
+        "quantity": "150 g",
         "price": "ND"
       }
     ]
