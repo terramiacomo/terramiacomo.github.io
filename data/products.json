@@ -1,49 +1,259 @@
 [
   {
+    "id": "tab-calabria",
+    "name": "Calabria",
+    "items": [
+      {
+        "name": "Amaro Cardus",
+        "description": "",
+        "quantity": "1 litro",
+        "price": ""
+      },
+      {
+        "name": "Antipasto Calabrese",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Biscotti Al Bergamotto",
+        "description": "",
+        "quantity": "300 g",
+        "price": ""
+      },
+      {
+        "name": "Bruschetta",
+        "description": "Sapori Di Campagna; Ai Carciofi; Di Melanzane; A Base Di Cipolla Rossa Di Tropea",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Carciofi Interi Sottolio",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Chips Crusco Di Scalea",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Cipolla Rossa Di Tropea A Filetti In Agrodolce",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Condimento Extra Vergine D'Oliva Al Bergamotto",
+        "description": "",
+        "quantity": "1 bottiglia",
+        "price": ""
+      },
+      {
+        "name": "Confetture",
+        "description": "Di Melagrana; Di Fragole; Extra Di Melagrana; Di Fichi Piccante; Di Cipolle Piccante",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crema Alle Mandorle Liquorosa",
+        "description": "",
+        "quantity": "500 ml",
+        "price": ""
+      },
+      {
+        "name": "Diavolicchio Diamante",
+        "description": "In Polvere; In Scaglie Essiccato; Sottolio",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Liquore Alla Melagrana",
+        "description": "",
+        "quantity": "500 ml",
+        "price": ""
+      },
+      {
+        "name": "Maccheroncini Rigati Al Bergamotto",
+        "description": "",
+        "quantity": "500 g",
+        "price": ""
+      },
+      {
+        "name": "Marmellate",
+        "description": "Di Bergamotto; Di Kumquat",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Melanzane A Filetto Sottolio",
+        "description": "Tradizionali; Rosse",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Melassa Di Melagrana",
+        "description": "",
+        "quantity": "100 ml",
+        "price": ""
+      },
+      {
+        "name": "Nduja",
+        "description": "Tradizionale; Di Suino Calabrese",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Passata Di Pomodoro",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Pomodori Secchi Senza Conservanti",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Salsa Di Pomodoro",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Salsiccia",
+        "description": "Dolce; Piccante",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Seghetto Alla Nduja",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Soppressata",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Succo Biologico",
+        "description": "Bergamotto; Clementine; Melagrana",
+        "quantity": "750 ml",
+        "price": ""
+      },
+      {
+        "name": "Succo Di Melagrana",
+        "description": "Puro; Con aggiunta di limone",
+        "quantity": "200 ml",
+        "price": ""
+      },
+      {
+        "name": "Vellutata Di Cipolla",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-puglia",
+    "name": "Puglia",
+    "items": [
+      {
+        "name": "Scaldatelli",
+        "description": "Gusto Pizza; Gusto Cacio e Pepe",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Taralli Classici",
+        "description": "Classici; Gusto Pizza; Con Semi di Finocchio; alla Cipolla",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Taralli Dolci",
+        "description": "Zenzero E Cannella",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Bianco IGP 12 E Mezzo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Negroamaro Del Salento IGP 12 E Mezzo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Primitivo Di Manduria DOP Papale",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Primitivo IGP 12 E Mezzo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-sardegna",
     "name": "Sardegna",
     "items": [
       {
-        "name": "Liquore al Mirto",
+        "name": "Liquore Al Mirto",
         "description": "",
         "quantity": "200 / 500 / 700 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore al Mirto Bianco in bacche",
+        "name": "Liquore Al Mirto Bianco In Bacche",
         "description": "",
         "quantity": "200 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore al Limone",
+        "name": "Liquore Al Limone",
         "description": "",
         "quantity": "500 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore al Finocchio",
+        "name": "Liquore Al Finocchio",
         "description": "",
         "quantity": "500 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore all'Elicriso",
+        "name": "Liquore All'Elicriso",
         "description": "",
         "quantity": "200 / 500 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore al Corbezzolo",
+        "name": "Liquore Al Corbezzolo",
         "description": "",
         "quantity": "200 ml",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Liquore allo Zafferano",
+        "name": "Liquore Allo Zafferano",
         "description": "",
         "quantity": "500 ml",
-        "price": "ND"
+        "price": ""
       }
     ]
   },
@@ -52,196 +262,88 @@
     "name": "Sicilia",
     "items": [
       {
-        "name": "Mandorle Naturali",
+        "name": "Caponata Siciliana",
         "description": "",
-        "quantity": "250 / 500 g",
-        "price": "ND"
-      },
-      {
-        "name": "Mandorle Pelate",
-        "description": "",
-        "quantity": "250 g",
-        "price": "ND"
-      },
-      {
-        "name": "Mandorle Pizzute di Avola",
-        "description": "",
-        "quantity": "200 g",
-        "price": "ND"
-      },
-      {
-        "name": "Mandorle Tostate",
-        "description": "Natuali; al Rosmarino; all'Origano - 200 g",
         "quantity": "",
-        "price": "ND"
+        "price": ""
+      },
+      {
+        "name": "Capperi Sotto Sale",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crema Spalmabile",
+        "description": "Di Mandorle; Pistacchio; Pistacchio E Cioccolato",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Croccante Pistacchio",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Dolci Alla Pasta Di Mandorla",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Filetti Di Acciuga",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Mandorle Naturali",
+        "description": "Naturali; Pelate; Pizzute di Avola",
+        "quantity": "250 / 500 g",
+        "price": ""
       },
       {
         "name": "Mandorle Pralinate",
         "description": "",
         "quantity": "200 g",
-        "price": "ND"
+        "price": ""
+      },
+      {
+        "name": "Mandorle Tostate",
+        "description": "Natuali; al Rosmarino; all'Origano",
+        "quantity": "200 g",
+        "price": ""
+      },
+      {
+        "name": "Olio EVO Estratto A Freddo",
+        "description": "",
+        "quantity": "",
+        "price": ""
       },
       {
         "name": "Olive Siciliane",
         "description": "Dolci; Schiacciate all'Olio, Carrettiera o Bomba; Capricciose; Denocciolate; Nere Essiccate o Caserecce; Infornate al Sale; alla Fantasia",
+        "quantity": "Variabile",
+        "price": ""
+      },
+      {
+        "name": "Patè Pistacchio E Aglio",
+        "description": "",
         "quantity": "",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Capperi sotto Sale",
+        "name": "Pesto Al Pistacchio",
         "description": "",
-        "quantity": "X g",
-        "price": "ND"
+        "quantity": "",
+        "price": ""
       },
       {
-        "name": "Patè Pistacchio e Aglio",
+        "name": "Pesto Pantesco",
         "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Pesto al Pistacchio",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Crema Pistacchio / Pistacchio e Cioccolato",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Croccante Pistacchio",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      }
-    ]
-  },
-  {
-    "id": "tab-calabria",
-    "name": "Calabria",
-    "items": [
-      {
-        "name": "Succo Biologico",
-        "description": "",
-        "quantity": "750 ml - Bergamotto, Clementine, Melagrana",
-        "price": "ND"
-      },
-      {
-        "name": "Succo di Melagrana",
-        "description": "Puro o con aggiunta di limone",
-        "quantity": "200 ml",
-        "price": "ND"
-      },
-      {
-        "name": "Confettura di Melagrana",
-        "description": "",
-        "quantity": "212 ml",
-        "price": "ND"
-      },
-      {
-        "name": "Melassa di Melagrana",
-        "description": "",
-        "quantity": "100 ml",
-        "price": "ND"
-      },
-      {
-        "name": "Liquore alla Melagrana",
-        "description": "",
-        "quantity": "500 ml",
-        "price": "ND"
-      },
-      {
-        "name": "Marmellata al Bergamotto",
-        "description": "",
-        "quantity": "40 / 270 g",
-        "price": "ND"
-      },
-      {
-        "name": "Biscotti al Bergamotto",
-        "description": "",
-        "quantity": "300 g",
-        "price": "ND"
-      },
-      {
-        "name": "Condimento Extra Vergine d'Oliva al Bergamotto",
-        "description": "",
-        "quantity": "1 bottiglia",
-        "price": "ND"
-      },
-      {
-        "name": "Maccheroncini rigati al Bergamotto",
-        "description": "",
-        "quantity": "500 g",
-        "price": "ND"
-      },
-      {
-        "name": "Crema alle mandorle",
-        "description": "",
-        "quantity": "500 ml",
-        "price": "ND"
-      },
-      {
-        "name": "Amaro Cardus",
-        "description": "",
-        "quantity": "1 litro",
-        "price": "ND"
-      }
-    ]
-  },
-  {
-    "id": "tab-umbria",
-    "name": "Umbria",
-    "items": [
-      {
-        "name": "Cookies con farina di marroni e nocciole",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Cookies marroni e cioccolato",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Ciambelline al vino e farina di marroni",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Croccantelle di marroni",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Rose di marroni e chicchi di farro al cacao",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Tozzetti spoletini con farina di marroni e mandorle",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Croccantelle alle nocciole",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
-      },
-      {
-        "name": "Nuvolette alle mandorle",
-        "description": "",
-        "quantity": "X g",
-        "price": "ND"
+        "quantity": "",
+        "price": ""
       }
     ]
   },
@@ -250,34 +352,106 @@
     "name": "Trentino",
     "items": [
       {
-        "name": "Stravecchio",
+        "name": "Burro Alto Adigiano",
         "description": "",
-        "quantity": "300 g",
-        "price": "ND"
+        "quantity": "250 g",
+        "price": ""
       },
       {
-        "name": "Oro dell'Alpe",
+        "name": "Caciotta",
+        "description": "Alle Noci; Mista Capra e Pecora; Fior di Capra",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Cuore Di Speck",
         "description": "",
-        "quantity": "300 g",
-        "price": "ND"
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Fiocco Aromatizzato Alle Erbe Alpine",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Guanciale",
+        "description": "",
+        "quantity": "",
+        "price": ""
       },
       {
         "name": "Imperial",
         "description": "",
         "quantity": "300 g",
-        "price": "ND"
-      },
-      {
-        "name": "Burro Alto Adigiano",
-        "description": "",
-        "quantity": "250 g",
-        "price": "ND"
+        "price": ""
       },
       {
         "name": "Luganega Trentina",
         "description": "",
         "quantity": "Variabile",
-        "price": "ND"
+        "price": ""
+      },
+      {
+        "name": "Oro Dell'Alpe",
+        "description": "",
+        "quantity": "300 g",
+        "price": ""
+      },
+      {
+        "name": "Salame Di Filetto Con Noci",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Stravecchio",
+        "description": "",
+        "quantity": "300 g",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-umbria",
+    "name": "Umbria",
+    "items": [
+      {
+        "name": "Ciambelline Al Vino E Farina Di Marroni",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Cookies",
+        "description": "Con Farina Di Marroni E Nocciole; Marroni E Cioccolato",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Croccantelle",
+        "description": "Alle Nocciole; Di Marroni",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Nuvolette Alle Mandorle",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Rose Di Marroni E Chicchi Di Farro Al Cacao",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Tozzetti Spoletini Con Farina Di Marroni E Mandorle",
+        "description": "",
+        "quantity": "",
+        "price": ""
       }
     ]
   },
@@ -286,22 +460,16 @@
     "name": "Veneto",
     "items": [
       {
-        "name": "Cremino Bigusto Nocciola e Pistacchio",
-        "description": "",
+        "name": "Cremino",
+        "description": "Classico Nocciola; Bigusto Nocciola E Pistacchio",
         "quantity": "100 g",
-        "price": "ND"
+        "price": ""
       },
       {
-        "name": "Cremino Classico Nocciola",
-        "description": "",
-        "quantity": "100 g",
-        "price": "ND"
-      },
-      {
-        "name": "Tartufi in Festa",
+        "name": "Tartufi In Festa",
         "description": "",
         "quantity": "150 g",
-        "price": "ND"
+        "price": ""
       }
     ]
   }
