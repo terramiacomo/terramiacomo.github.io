@@ -130,7 +130,7 @@
         "price": ""
       },
       {
-        "name": "Seghetto Alla Nduja",
+        "name": "Sughetto Alla Nduja",
         "description": "",
         "quantity": "",
         "price": ""
@@ -162,6 +162,96 @@
     ]
   },
   {
+    "id": "tab-liguria",
+    "name": "Liguria",
+    "items": [
+      {
+        "name": "Baci Di Alassio",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Canestrelli",
+        "description": "Tradizionali; Senza Zucchero",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Foglie D'Ulivo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Maccheroni Genovesi",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Pesto Alla Genovese",
+        "description": "Noci e Pinoli; Noci e Pinoli senza Aglio",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Spaghetti",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Taglioni allo Zafferano",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Trenette",
+        "description": "Normali; Massate",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Trofie",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-lombardia",
+    "name": "Lombardia",
+    "items": [
+      {
+        "name": "Miele",
+        "description": "Acacia; Millefiori; Tiglio; Melata; Castagno",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-piemonte",
+    "name": "Piemonte",
+    "items": [
+      {
+        "name": "Riso Carnaroli",
+        "description": "Al Naturale; Ai Formaggi; Porcini e Zafferano; Zucchine e Zafferano; Peperoni Rossi e Salsiccia; Al Tartufo; Amatriciana",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Riso Vialone Nano",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-puglia",
     "name": "Puglia",
     "items": [
@@ -184,26 +274,26 @@
         "price": ""
       },
       {
-        "name": "Vino Bianco IGP 12 E Mezzo",
-        "description": "",
+        "name": "Vino Bianco IGP",
+        "description": "12 E Mezzo",
         "quantity": "",
         "price": ""
       },
       {
-        "name": "Vino Negroamaro Del Salento IGP 12 E Mezzo",
-        "description": "",
+        "name": "Vino Negroamaro Del Salento IGP",
+        "description": "12 E Mezzo",
         "quantity": "",
         "price": ""
       },
       {
-        "name": "Vino Primitivo Di Manduria DOP Papale",
-        "description": "",
+        "name": "Vino Primitivo Di Manduria DOP",
+        "description": "Papale",
         "quantity": "",
         "price": ""
       },
       {
-        "name": "Vino Primitivo IGP 12 E Mezzo",
-        "description": "",
+        "name": "Vino Primitivo IGP",
+        "description": "12 E Mezzo",
         "quantity": "",
         "price": ""
       }
