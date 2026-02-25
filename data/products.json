@@ -280,6 +280,12 @@
         "price": ""
       },
       {
+        "name": "Vino Chardonay",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
         "name": "Vino Negroamaro Del Salento IGP",
         "description": "12 E Mezzo",
         "quantity": "",
@@ -294,6 +300,12 @@
       {
         "name": "Vino Primitivo IGP",
         "description": "12 E Mezzo",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Susumaniello Rosè",
+        "description": "",
         "quantity": "",
         "price": ""
       }
