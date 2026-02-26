@@ -1,12 +1,12 @@
 const regions = [
-    { name: "calabria", count: 43 },
-    { name: "puglia", count: 10 },
-    { name: "lombardia", count: 15 },
-    { name: "sardegna", count: 7 },
-    { name: "sicilia", count: 33 },
-    { name: "trentino", count: 0 },
-    { name: "umbria", count: 7 },
-    { name: "veneto", count: 4 }
+    { name: "Calabria", count: 43 },
+    { name: "Puglia", count: 10 },
+    { name: "Lombardia", count: 15 },
+    { name: "Sardegna", count: 7 },
+    { name: "Sicilia", count: 33 },
+    { name: "Trentino", count: 0 },
+    { name: "Umbria", count: 7 },
+    { name: "Veneto", count: 4 }
 ];
 
 const galleryContainer = document.getElementById('gallery');
