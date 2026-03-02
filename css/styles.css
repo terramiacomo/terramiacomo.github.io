@@ -2233,6 +2233,39 @@ select {
     transition         : all 0.3s var(--ease-smooth-in-out);
 }
 
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.booking-input {
+    display: inline!important;
+    text-align : center!important;
+    background-color: var(--color-bg-neutral)!important;
+    padding         : var(--vspace-0_25)!important;
+    margin-left     : var(--vspace-0_5)!important;
+    margin-bottom   : var(--vspace-0_25)!important;
+    width           : var(--vspace-2_5)!important;
+    height          : var(--vspace-1_5)!important;
+    border          : 1px solid var(--color-bg-neutral);
+    border-radius   : var(--radius-full);
+}
+
+.booking-input.booking-other {
+    width           : var(--vspace-8)!important;
+    margin-bottom   : var(--vspace-1)!important;
+}
+
+.booking-top {
+    margin-top: 0!important;
+}
+
+.booking-divider {
+    margin: var(--vspace-0_5)!important;
+}
+
+
 .ss-custom-select {
     position: relative;
     padding : 0;
@@ -2451,7 +2484,6 @@ input[type=button].btn--primary:focus,
 input[type=button].btn--primary:hover {
     background  : var(--color-btn-primary-hover);
     border-color: var(--color-btn-primary-hover);
-    color       : var(--color-btn-primary-hover-text);
 }
 
 /* button ghost

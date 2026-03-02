@@ -167,12 +167,30 @@
         <div class="row s-footer__top row-x-center">
             <div class="column xl-6 lg-8 md-10 footer-block footer-newsletter">
 
-                <h5>
+                <h4 class="booking-top">
                 Contattaci per prenotazioni di prodotti a tiro limitato!
-                </h5>
+                </h4>
+                <h5>Ritiro in negozio. <b>NB: Le mozzarelle devono essere prenotate entro martedì!</b></h5>
 
                 <div class="booking-form">
-                    <a href="https://wa.me/393759739597?text=Vorrei%20prenotare%20i%20seguenti%20prodotti%3A%0A" class="btn btn--primary">WhatsApp 💬</a>
+                    <div>
+                        <span>Battipaglia da 250g:</span>
+                        <input type="number" class="booking-input" pattern="[1-9]" id="booking_mozz_250" value="0" maxlength="2" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                    </div>
+                    <div>
+                        <span>Battipaglia da 500g:</span>
+                        <input type="number" class="booking-input" pattern="[1-9]" id="booking_mozz_500" value="0" maxlength="2" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                    </div>
+                    <div>
+                        <span>Altro:</span>
+                        <input type="text" class="booking-input booking-other" id="booking_other" maxlength="100" placeholder="Es. 1x Burrata, 2x Caciocavallo...">
+                    </div>
+                    
+                    <button class="btn btn--primary" onclick="bookingWhatsApp()">Prenota su WA 💬</button>
+                    
+                    <h6 class="booking-divider">
+                        Oppure
+                    </h6>
                     <a href="tel:+390318255451" class="btn btn--primary">Fisso ☎️</a>
                     <a href="tel:+393759739597" class="btn btn--primary">Mobile 📱</a>
                 </div> <!-- end subscribe-form -->
@@ -450,6 +468,28 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        function bookingWhatsApp() {
+            const mozz250 = document.getElementById('booking_mozz_250').value;
+            const mozz500 = document.getElementById('booking_mozz_500').value;
+            const other = document.getElementById('booking_other').value.trim();
+
+            let message = 'Ciao! Vorrei prenotare:\n';
+            if (mozz250 > 0) {
+                message += `- ${mozz250}x Mozzarella da 250g\n`;
+            }
+            if (mozz500 > 0) {
+                message += `- ${mozz500}x Mozzarella da 500g\n`;
+            }
+            if (other) {
+                message += `- Altro: ${other}\n`;
+            }
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/393759739597?text=${encodedMessage}`;
+            window.open(whatsappURL, '_blank');
+        }
+    </script>
 
 </body>
 </html>
