@@ -170,9 +170,13 @@
                 <h4 class="booking-top">
                 Contattaci per prenotazioni di prodotti a tiro limitato!
                 </h4>
-                <h5>Ritiro in negozio. <b>NB: Le mozzarelle devono essere prenotate entro martedì!</b></h5>
+                <h5>Ritiro in negozio. <b>NB: Le mozzarelle devono essere prenotate entro la domenica della settimana prima!</b></h5>
 
                 <div class="booking-form">
+                    <div>
+                        <span>Nome:</span>
+                        <input type="text" class="booking-input booking-other" id="booking_name" maxlength="50" placeholder="Es. Mario Rossi...">
+                    </div>
                     <div>
                         <span>Battipaglia da 250g:</span>
                         <input type="number" class="booking-input" pattern="[1-9]" id="booking_mozz_250" value="0" maxlength="2" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
@@ -432,7 +436,8 @@
                     <div class="grid-cols__column footer-block">
                         <h6>Orari</h6>
                         <ul class="opening-hours">
-                            <li><span class="opening-hours__days">🛍️ Lun-Sab</span><span class="opening-hours__time">09:00 - 13:00<br>15:00 - 19:00</span></li>
+                            <li><span class="opening-hours__days">☕ Lun</span><span class="opening-hours__time">15:00 - 19:00</span></li>
+                            <li><span class="opening-hours__days">🛍️ Mar-Sab</span><span class="opening-hours__time">09:00 - 13:00<br>15:00 - 19:00</span></li>
                             <li><span class="opening-hours__days">💤 Dom</span><span class="opening-hours__time">Chiuso</span></li>
                         </ul>
                     </div>
@@ -470,11 +475,23 @@
     <script src="js/main.js"></script>
     <script>
         function bookingWhatsApp() {
+            // validate name input (nome + cognome)
+            const name = document.getElementById('booking_name').value.trim();
+            if (!name) {
+                alert('Per favore inserisci nome e cognome.');
+                return;
+            }
+            const parts = name.split(/\s+/);
+            if (parts.length < 2) {
+                alert('Si prega di includere il cognome.');
+                return;
+            }
+
             const mozz250 = document.getElementById('booking_mozz_250').value;
             const mozz500 = document.getElementById('booking_mozz_500').value;
             const other = document.getElementById('booking_other').value.trim();
 
-            let message = 'Ciao! Vorrei prenotare:\n';
+            let message = `Salve, vorrei prenotare i seguenti articoli a nome ${name}:\n`;
             if (mozz250 > 0) {
                 message += `- ${mozz250}x Mozzarella da 250g\n`;
             }
