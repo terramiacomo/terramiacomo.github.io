@@ -17,6 +17,8 @@
   "booking_or": "Or",
   "booking_fixed": "Phone ☎️",
   "booking_mobile": "Mobile 📱",
+  "booking_alert_name": "Please enter your first and last name.",
+  "booking_alert_surname": "Please include your last name.",
   "products": "Products",
   "gallery": "Gallery",
   "ourStory": "Our Story",
