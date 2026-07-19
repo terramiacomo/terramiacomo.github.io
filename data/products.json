@@ -1,5 +1,35 @@
 [
   {
+    "id": "tab-abruzzo",
+    "name": "Abruzzo",
+    "items": [
+      {
+        "name": "Tartufo Estivo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura Di Pere E Tartufo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Miele Al Tartufo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Burro Al Tartufo Bianco",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-calabria",
     "name": "Calabria",
     "items": [
@@ -53,7 +83,7 @@
       },
       {
         "name": "Confetture",
-        "description": "Di Melagrana; Di Fragole; Extra Di Melagrana; Di Fichi Piccante; Di Cipolle Piccante",
+        "description": "Di Melagrana; Di Fragole; Extra Di Melagrana; Di Fichi Piccante; Di Cipolle Piccante; Di Albicocche; Di Arance",
         "quantity": "",
         "price": ""
       },
@@ -158,6 +188,48 @@
         "description": "",
         "quantity": "",
         "price": ""
+      },
+      {
+        "name": "Succo Al Bergamotto E Aloe Vera",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Limoncello",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crema Di Limone Liquorosa",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Latte Di Mandorla",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Nettare Di Fragole",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-emilia-romagna",
+    "name": "Emilia Romagna",
+    "items": [
+      {
+        "name": "Aceto Balsamico Di Modena Aromatizzato Alla Ciliegia",
+        "description": "Versione piccola invecchiata 6 mesi; Versione grande invecchiata 12 mesi",
+        "quantity": "",
+        "price": ""
       }
     ]
   },
@@ -218,6 +290,42 @@
         "description": "",
         "quantity": "",
         "price": ""
+      },
+      {
+        "name": "Olive Taggiasche Denocciolate",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crema Di Noci",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Pesto Rosso",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Pesto Alla Genovese (Nuovo)",
+        "description": "Con aglio; Senza aglio",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Trofei",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Trenette Matassate",
+        "description": "",
+        "quantity": "",
+        "price": ""
       }
     ]
   },
@@ -228,6 +336,72 @@
       {
         "name": "Miele",
         "description": "Acacia; Millefiori; Tiglio; Melata; Castagno",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Torta Artigianale",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Maestosa Dell'Engadina Con Noci",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crostata Con Marmellata Ai Frutti Di Bosco",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Sbrisolona",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Biscotti Artigianali",
+        "description": "Al cioccolato; Ai cereali; Alla nocciola",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Giardiniere Con Coltivazione Biologica",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Nettare Di Bacche Di Haskap",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura Extra",
+        "description": "Di bacche di Haskap; Di lamponi rossi; Di mirtillo; Di lamponi gialli",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Succo Di Mela Puro",
+        "description": "Senza zuccheri aggiunti",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "id": "tab-marche",
+    "name": "Marche",
+    "items": [
+      {
+        "name": "Sughi Pronti",
+        "description": "Alla ricotta; Al basilico; All'amatriciana; Al ragù",
         "quantity": "",
         "price": ""
       }
@@ -246,6 +420,18 @@
       {
         "name": "Riso Vialone Nano",
         "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Riso Vial e Nano",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Risinoreconditi",
+        "description": "Vari sapori",
         "quantity": "",
         "price": ""
       }
@@ -306,6 +492,42 @@
       {
         "name": "Vino Susumaniello Rosè",
         "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Taralli Artigianali Fatti A Mano",
+        "description": "Con olio EVO; Alla cipolla; Al finocchio; Al peperoncino",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Dolci",
+        "description": "Alla mandorla; Al cioccolato e arancia candita; Al limoncello",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Negramaro Collezione Privata",
+        "description": "15 gradi",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Malvasia Rosso",
+        "description": "12.5 gradi",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Malvasia Bianco",
+        "description": "12.5 gradi",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Vino Susumaniello Rosso",
+        "description": "14 gradi",
         "quantity": "",
         "price": ""
       }
@@ -450,6 +672,18 @@
     ]
   },
   {
+    "id": "tab-toscana",
+    "name": "Toscana",
+    "items": [
+      {
+        "name": "Olio Extra Vergine",
+        "description": "Frantoio Franci; Fiore del frantoio; Delicate; Villa Magra",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-trentino",
     "name": "Trentino",
     "items": [
@@ -571,6 +805,12 @@
         "name": "Tartufi In Festa",
         "description": "",
         "quantity": "150 g",
+        "price": ""
+      },
+      {
+        "name": "Prosecco",
+        "description": "",
+        "quantity": "",
         "price": ""
       }
     ]
