@@ -4342,6 +4342,7 @@ cite {
     line-height: var(--vspace-0_75);
     margin-bottom: var(--vspace-1);
     color: var(--color-text-light);
+    white-space: pre-line;
 }
 
 .menu-list__item-desc {
