@@ -406,6 +406,18 @@
     "name": "Lombardia",
     "items": [
       {
+        "name": "Confettura a Marchio Terra Mia",
+        "description": "Di bacche di Haskap",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura Extra",
+        "description": "Di lamponi rossi; Di mirtillo; Di lamponi gialli",
+        "quantity": "",
+        "price": ""
+      },
+      {
         "name": "Miele",
         "description": "Acacia; Millefiori; Tiglio; Melata; Castagno",
         "quantity": "",
@@ -450,12 +462,6 @@
       {
         "name": "Nettare Di Bacche Di Haskap",
         "description": "",
-        "quantity": "",
-        "price": ""
-      },
-      {
-        "name": "Confettura Extra",
-        "description": "Di bacche di Haskap; Di lamponi rossi; Di mirtillo; Di lamponi gialli",
         "quantity": "",
         "price": ""
       },
@@ -749,7 +755,7 @@
     "items": [
       {
         "name": "Olio Extra Vergine",
-        "description": "Frantoio Franci; Fiore del frantoio; Delicate; Villa Magra",
+        "description": "Coratina, Frantoio Franci; Fiore del frantoio; Delicate; Villa Magra",
         "quantity": "",
         "price": ""
       }
