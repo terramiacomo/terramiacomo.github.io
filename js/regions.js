@@ -1,6 +1,8 @@
 const regions = [
     { name: "Abruzzo", count: 4 },
+    { name: "Basilicata", count: 13 },
     { name: "Calabria", count: 50 },
+    { name: "Campania", count: 1 },
     { name: "Emilia Romagna", count: 2 },
     { name: "Puglia", count: 21 },
     { name: "Liguria", count: 9 },
@@ -9,7 +11,7 @@ const regions = [
     { name: "Piemonte", count: 8 },
     { name: "Sardegna", count: 7 },
     { name: "Sicilia", count: 33 },
-    { name: "Toscana", count: 3 },
+    { name: "Toscana", count: 8 },
     { name: "Trentino", count: 12 },
     { name: "Umbria", count: 7 },
     { name: "Veneto", count: 5 }
@@ -34,9 +36,9 @@ regions.forEach(region => {
     for (let i = 1; i <= region.count; i++) {
         regionHTML += `
             <div class="gallery-small-items__item grid-cols__column">
-                <a href="images/regions/${region.name}/${i}@2x.jpg" class="gallery-small-items__item-thumb glightbox">
-                    <img src="images/regions/${region.name}/${i}.jpg"
-                         srcset="images/regions/${region.name}/${i}.jpg" alt="${region.name} photo ${i}">
+                <a href="images/regions/${region.name}/${i}@2x.jpeg" class="gallery-small-items__item-thumb glightbox">
+                    <img src="images/regions/${region.name}/${i}.jpeg"
+                         srcset="images/regions/${region.name}/${i}.jpeg" alt="${region.name} photo ${i}">
                 </a>
             </div>`;
     }

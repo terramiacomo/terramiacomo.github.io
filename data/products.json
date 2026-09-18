@@ -30,6 +30,78 @@
     ]
   },
   {
+    "id": "tab-basilicata",
+    "name": "Basilicata",
+    "items": [
+      {
+        "name": "Pasta Senatore Cappelli a Como – Grano Antico 100% Italiano",
+        "description": "Da Terra Mia – La Bottega dei Sapori a Como trovi la Pasta di Grano Antico Senatore Cappelli, prodotta con grano duro Senatore Cappelli 100% italiano, una storica varietà della tradizione cerealicola italiana.\n\nIl Senatore Cappelli è un grano duro antico apprezzato per il suo carattere e per il suo profilo aromatico. La pasta ottenuta da questa preziosa materia prima si distingue per il sapore intenso e autentico del grano, la piacevole consistenza e la capacità di accompagnare ed esaltare condimenti semplici o ricette più elaborate.\n\nÈ una pasta pensata per chi ricerca qualità, origine italiana e tradizione, e desidera riscoprire sapori che raccontano il territorio e la cultura gastronomica del nostro Paese.\n\nPerché scegliere la Pasta Senatore Cappelli:\n• Grano duro Senatore Cappelli 100% italiano\n• Varietà storica di grano antico\n• Gusto intenso e caratteristico\n• Ideale per le ricette della tradizione italiana\n• Ottima anche con condimenti semplici, che lasciano protagonista il sapore della pasta\n• Diversi formati disponibili\n\nDa Terra Mia – La Bottega dei Sapori, in Via Milano a Como, selezioniamo prodotti italiani di qualità provenienti da piccoli produttori e realtà attente alla tradizione.\n\nScopri in negozio la nostra selezione di Pasta Senatore Cappelli a Como e lasciati guidare nella scelta del formato e dell'abbinamento più adatto.",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Orecchiette di grano Senatore Cappelli",
+        "description": "Tradizionali; Al Peperone Crusco di Senise IGP",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Semola di grano duro Senatore Cappelli",
+        "description": "Semola; Semola rimacinata",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Crackers di grano Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Penne rigate Senatore Cappelli",
+        "description": "Integrali; Grano duro",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Spaghetti di grano duro Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Fusilloni di grano duro Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Rigatoni di grano duro Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Paccheri di grano duro Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Cavatelli di grano duro Senatore Cappelli",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Linea bimbi Senatore Cappelli",
+        "description": "Stellina; Esse",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-calabria",
     "name": "Calabria",
     "items": [
