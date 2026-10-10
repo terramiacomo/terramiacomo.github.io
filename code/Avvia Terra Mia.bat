@@ -24,12 +24,14 @@ if errorlevel 1 (
     pip install gitpython --quiet
 )
 
-:: Avvia lo strumento
-echo Avvio Terra Mia...
-python "%~dp0terra_mia_tool.py"
+:: Avvia lo strumento in background
+for /f "delims=" %%I in ('python -c "import sys; print(sys.executable)"') do set "PYTHON_EXE=%%I"
+for %%I in ("%PYTHON_EXE%") do set "PYTHONW_EXE=%%~dpIpythonw.exe"
 
-if errorlevel 1 (
-    echo.
-    echo Si e verificato un errore. Premi un tasto per chiudere.
-    pause >nul
+if not exist "%PYTHONW_EXE%" (
+    echo ERRORE: pythonw.exe non trovato accanto a Python.
+    pause
+    exit /b 1
 )
+
+start "" "%PYTHONW_EXE%" "%~dp0terra_mia_tool.py"
