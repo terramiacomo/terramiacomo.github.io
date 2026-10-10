@@ -2,17 +2,17 @@ const regions = [
     { name: "Abruzzo", count: 4 },
     { name: "Basilicata", count: 13 },
     { name: "Calabria", count: 50 },
-    { name: "Campania", count: 1 },
+    { name: "Campania", count: 2 },
     { name: "Emilia Romagna", count: 2 },
-    { name: "Puglia", count: 21 },
-    { name: "Liguria", count: 9 },
+    { name: "Liguria", count: 12 },
     { name: "Lombardia", count: 29 },
     { name: "Marche", count: 4 },
     { name: "Piemonte", count: 8 },
+    { name: "Puglia", count: 25 },
     { name: "Sardegna", count: 7 },
     { name: "Sicilia", count: 33 },
     { name: "Toscana", count: 8 },
-    { name: "Trentino", count: 12 },
+    { name: "Trentino", count: 13 },
     { name: "Umbria", count: 7 },
     { name: "Veneto", count: 5 }
 ];
@@ -38,7 +38,8 @@ regions.forEach(region => {
             <div class="gallery-small-items__item grid-cols__column">
                 <a href="images/regions/${region.name}/${i}@2x.jpeg" class="gallery-small-items__item-thumb glightbox">
                     <img src="images/regions/${region.name}/${i}.jpeg"
-                         srcset="images/regions/${region.name}/${i}.jpeg" alt="${region.name} photo ${i}">
+                         onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='images/regions/${region.name}/${i}.jpg';const p=this.closest('a');if(p)p.href='images/regions/${region.name}/${i}@2x.jpg';}"
+                         alt="${region.name} photo ${i}">
                 </a>
             </div>`;
     }

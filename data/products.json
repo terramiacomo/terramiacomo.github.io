@@ -294,6 +294,18 @@
     ]
   },
   {
+    "id": "tab-campania",
+    "name": "Campania",
+    "items": [
+      {
+        "name": "Mozzarelle di Battipaglia",
+        "description": "Su prenotazione",
+        "quantity": "",
+        "price": ""
+      }
+    ]
+  },
+  {
     "id": "tab-emilia-romagna",
     "name": "Emilia Romagna",
     "items": [
