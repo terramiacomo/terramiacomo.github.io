@@ -4531,7 +4531,11 @@ cite {
 }
 
 .gallery-items__item-thumb img {
+    aspect-ratio: 1 / 1;
+    display: block;
     margin: 0;
+    object-fit: cover;
+    width: 100%;
     vertical-align: bottom;
     transition: all, 0.6s var(--ease-smooth);
 }
