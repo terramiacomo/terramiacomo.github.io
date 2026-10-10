@@ -4585,6 +4585,7 @@ cite {
     --grid-gap: 0;
     --min-width-wrap: 280px;
     --col-min-width: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(min(var(--col-min-width), 100%), 1fr));
 
     z-index: 2;
     position: relative;
