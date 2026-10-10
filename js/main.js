@@ -221,6 +221,34 @@
         
         testimonialSlider();
 
+        const initProductGallerySlider = function() {
+            const sliderElement = document.querySelector('.product-gallery-slider');
+            if (!sliderElement) return;
+
+            new Swiper(sliderElement, {
+                slidesPerView: 1,
+                spaceBetween: 24,
+                pagination: {
+                    el: '.product-gallery-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.product-gallery-next',
+                    prevEl: '.product-gallery-prev',
+                },
+                breakpoints: {
+                    600: {
+                        slidesPerView: 2,
+                    },
+                    1000: {
+                        slidesPerView: 3,
+                    },
+                },
+            });
+        };
+
+        initProductGallerySlider();
+
     }; // end ssSwiper
 
 
