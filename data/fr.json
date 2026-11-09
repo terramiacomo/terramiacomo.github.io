@@ -6,7 +6,7 @@
   "scrollDown": "Défiler vers le bas",
   "tagline": "La Boutique des Saveurs - Como",
   "introText": "Découvrez l'excellence des produits italiens typiques, soigneusement sélectionnés pour offrir une expérience gustative authentique et intemporelle.",
-  "bookingTitle": "Contactez-nous pour réserver des produits en quantités limitées!",
+  "bookingTitle": "Contactez-nous pour les réservations, maintenant aussi sur Deliveroo!",
   "bookingNote": "Retrait en magasin. <b>NB: La mozzarella doit être réservée avant le dimanche de la semaine précédente!</b>",
   "booking_name": "Nom:",
   "booking_mozz_250": "Battipaglia 250g:",
@@ -38,6 +38,6 @@
   "hours_mon": "☕ Lun",
   "hours_days": "🛍️ Mar-Sam",
   "hours_closed": "💤 Dim",
-  "hours_closed_time": "Fermé",
+  "hours_closed_time": "10:00 - 13:00",
   "ourRegions": "Nos Régions"
 }

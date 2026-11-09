@@ -6,7 +6,7 @@
   "scrollDown": "Scroll Down",
   "tagline": "The Flavor Shop - Como",
   "introText": "Discover the excellence of typical Italian products, carefully selected to offer an authentic and timeless taste experience.",
-  "bookingTitle": "Contact us to book limited quantity products!",
+  "bookingTitle": "Contact us for reservations, now also on Deliveroo!",
   "bookingNote": "In-store pickup. <b>NB: Mozzarella must be ordered by the Sunday of the week before!</b>",
   "booking_name": "Name:",
   "booking_mozz_250": "Battipaglia 250g:",
@@ -38,6 +38,6 @@
   "hours_mon": "☕ Mon",
   "hours_days": "🛍️ Tue-Sat",
   "hours_closed": "💤 Sun",
-  "hours_closed_time": "Closed",
+  "hours_closed_time": "10:00 - 13:00",
   "ourRegions": "Our Regions"
 }
