@@ -1,20 +1,20 @@
 const regions = [
     { name: "Abruzzo", count: 4 },
     { name: "Basilicata", count: 13 },
-    { name: "Calabria", count: 50 },
-    { name: "Campania", count: 2 },
-    { name: "Emilia Romagna", count: 2 },
+    { name: "Calabria", count: 53 },
+    { name: "Campania", count: 3 },
+    { name: "Emilia Romagna", count: 3 },
     { name: "Liguria", count: 12 },
-    { name: "Lombardia", count: 29 },
+    { name: "Lombardia", count: 36 },
     { name: "Marche", count: 4 },
-    { name: "Piemonte", count: 10 },
-    { name: "Puglia", count: 25 },
+    { name: "Piemonte", count: 13 },
+    { name: "Puglia", count: 26 },
     { name: "Sardegna", count: 7 },
     { name: "Sicilia", count: 33 },
     { name: "Toscana", count: 8 },
     { name: "Trentino", count: 13 },
     { name: "Umbria", count: 7 },
-    { name: "Veneto", count: 5 }
+    { name: "Veneto", count: 6 }
 ];
 
 const galleryContainer = document.getElementById('gallery');
