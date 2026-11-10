@@ -26,6 +26,36 @@
         "description": "",
         "quantity": "",
         "price": ""
+      },
+      {
+        "name": "Patatine al tartufo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Maionese al tartufo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Olio al tartufo",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Funghi porcini secchi",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Miele al tartufo squeez",
+        "description": "",
+        "quantity": "",
+        "price": ""
       }
     ]
   },
