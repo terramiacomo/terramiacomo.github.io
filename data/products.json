@@ -344,6 +344,12 @@
         "description": "Versione piccola invecchiata 6 mesi; Versione grande invecchiata 12 mesi",
         "quantity": "",
         "price": ""
+      },
+      {
+        "name": "parmigiano reggiano DOP 24 mesi",
+        "description": "",
+        "quantity": "",
+        "price": ""
       }
     ]
   },
@@ -510,6 +516,18 @@
       {
         "name": "Succo Di Mela Puro",
         "description": "Senza zuccheri aggiunti",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Yogurt",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Mostarde",
+        "description": "",
         "quantity": "",
         "price": ""
       }
@@ -923,6 +941,30 @@
       },
       {
         "name": "Prosecco",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confetture extra di mandarino",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura extra di fragole e melograno",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura extra di mango",
+        "description": "",
+        "quantity": "",
+        "price": ""
+      },
+      {
+        "name": "Confettura extra di ananas e frutto della passione",
         "description": "",
         "quantity": "",
         "price": ""
