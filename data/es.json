@@ -6,7 +6,7 @@
   "scrollDown": "Desplazarse hacia abajo",
   "tagline": "La Tienda de Sabores - Como",
   "introText": "Descubre la excelencia de productos típicos italianos, cuidadosamente seleccionados para ofrecer una experiencia de sabor auténtica e intemporal.",
-  "bookingTitle": "¡Contáctenos para reservar productos en cantidades limitadas!",
+  "bookingTitle": "¡Contáctanos para reservas, ahora también en Deliveroo!",
   "bookingNote": "Retiro en tienda. <b>NB: ¡La mozzarella debe reservarse antes del domingo de la semana anterior!</b>",
   "booking_name": "Nombre:",
   "booking_mozz_250": "Battipaglia 250g:",
@@ -38,6 +38,6 @@
   "hours_mon": "☕ Lun",
   "hours_days": "🛍️ Mar-Sáb",
   "hours_closed": "💤 Dom",
-  "hours_closed_time": "Cerrado",
+  "hours_closed_time": "10:00 - 13:00",
   "ourRegions": "Nuestras Regiones"
 }

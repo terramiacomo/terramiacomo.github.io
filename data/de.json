@@ -6,7 +6,7 @@
   "scrollDown": "Nach unten scrollen",
   "tagline": "Der Geschmack-Laden - Como",
   "introText": "Entdecken Sie die Exzellenz typisch italienischer Produkte, die sorgfältig ausgewählt wurden, um ein authentisches und zeitloses Geschmackserlebnis zu bieten.",
-  "bookingTitle": "Kontaktieren Sie uns, um Produkte in begrenzter Menge zu reservieren!",
+  "bookingTitle": "Kontaktieren Sie uns für Reservierungen, jetzt auch auf Deliveroo!",
   "bookingNote": "Abholen im Geschäft. <b>NB: der Mozzarella muss bis Sonntag der Vorwoche bestellt werden!</b>",
   "booking_name": "Name:",
   "booking_mozz_250": "Battipaglia 250g:",
@@ -38,6 +38,6 @@
   "hours_mon": "☕ Mo",
   "hours_days": "🛍️ Di-Sa",
   "hours_closed": "💤 So",
-  "hours_closed_time": "Geschlossen",
+  "hours_closed_time": "10:00 - 13:00",
   "ourRegions": "Unsere Regionen"
 }

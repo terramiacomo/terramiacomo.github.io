@@ -6,7 +6,7 @@
   "scrollDown": "Vai alla fine",
   "tagline": "La Bottega dei Sapori - Como",
   "introText": "Scopri l'eccellenza dei prodotti tipici italiani, accuratamente selezionati per offrire un'esperienza di gusto autentica e senza tempo.",
-  "bookingTitle": "Contattaci per prenotazioni di prodotti a tiro limitato!",
+  "bookingTitle": "Contattaci per prenotazioni, ora anche su Deliveroo",
   "bookingNote": "Ritiro in negozio. <b>NB: Le mozzarelle devono essere prenotate entro la domenica della settimana prima!</b>",
   "booking_name": "Nome:",
   "booking_mozz_250": "Battipaglia da 250g:",
@@ -38,6 +38,6 @@
   "hours_mon": "☕ Lun",
   "hours_days": "🛍️ Mar-Sab",
   "hours_closed": "💤 Dom",
-  "hours_closed_time": "Chiuso",
+  "hours_closed_time": "10:00 - 13:00",
   "ourRegions": "Le Nostre Regioni"
 }
