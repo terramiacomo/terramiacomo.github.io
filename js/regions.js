@@ -14,7 +14,7 @@ const regions = [
     { name: "Toscana", count: 8 },
     { name: "Trentino", count: 13 },
     { name: "Umbria", count: 7 },
-    { name: "Veneto", count: 9 }
+    { name: "Veneto", count: 12 }
 ];
 
 const galleryContainer = document.getElementById('gallery');
