@@ -8,7 +8,7 @@ const regions = [
     { name: "Lombardia", count: 36 },
     { name: "Marche", count: 7 },
     { name: "Piemonte", count: 16 },
-    { name: "Puglia", count: 26 },
+    { name: "Puglia", count: 27 },
     { name: "Sardegna", count: 7 },
     { name: "Sicilia", count: 33 },
     { name: "Toscana", count: 8 },
