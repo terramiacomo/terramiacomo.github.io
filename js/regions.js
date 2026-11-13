@@ -1,7 +1,7 @@
 const regions = [
     { name: "Abruzzo", count: 9 },
     { name: "Basilicata", count: 13 },
-    { name: "Calabria", count: 53 },
+    { name: "Calabria", count: 56 },
     { name: "Campania", count: 3 },
     { name: "Emilia Romagna", count: 3 },
     { name: "Liguria", count: 12 },
